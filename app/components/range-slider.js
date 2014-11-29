@@ -4,12 +4,13 @@ export default Ember.Component.extend({
 
   type: 'range',
   min: 0,
-  max: 10,
-  step: 1,
-  value: 5,
+  max: 35,
+  step: 5,
+  value: 0,
 
   didInsertElement: function () {
     var self = this;
+
     this.$().slider({
       range: 'max',
       value: this.get('value'),
