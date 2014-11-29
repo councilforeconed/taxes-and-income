@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import '../../vendor/skeleton-sass/sass/skeleton';
+
+@import 'colors';
+@import 'container';
+@import 'button';
+@import 'header';
+@import 'fonts';
+@import 'input';
+@import 'table';
+@import 'equation';
+@import 'chart';
+
+* {
+  box-sizing: border-box;
+}
+
+.add-round {
+  float: right;
+}
+
+.large-bill, .rounds, .sliders, .stacked-bar-chart {
+  margin-top: 2rem;
+}
+
+.large-bill-image {
+  margin: auto;
+  max-width: 100%;
+  width: 600px;
+  display: block;
+}
+
+.round-component {
+  width: 153px;
+  display: inline-block;
+
+}

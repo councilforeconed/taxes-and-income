@@ -1,0 +1,19 @@
+{
+  "name": "spending-multipliers",
+  "dependencies": {
+    "handlebars": "~1.1.2",
+    "jquery": "~1.9.1",
+    "qunit": "~1.12.0",
+    "ember-qunit": "https://github.com/rpflorence/ember-qunit.git#master",
+    "ember": "~1.8.0",
+    "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#master",
+    "ic-ajax": "~1.0.4",
+    "ember-testing-httpRespond": "~0.1.1",
+    "loader.js": "git://github.com/stefanpenner/loader.js",
+    "ember-load-initializers": "git://github.com/stefanpenner/ember-load-initializers.git#0.0.1",
+    "skeleton-sass": "~1.6.3",
+    "open-sans-fontface": "~1.0.4",
+    "jquery-ui": "~1.10.4",
+    "jquery-ui-touch-punch-working": "*"
+  }
+}
