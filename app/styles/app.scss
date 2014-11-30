@@ -15,23 +15,19 @@
   box-sizing: border-box;
 }
 
-.add-round {
-  float: right;
-}
-
-.large-bill, .rounds, .sliders, .stacked-bar-chart {
+#application {
   margin-top: 2rem;
 }
 
-.large-bill-image {
-  margin: auto;
-  max-width: 100%;
-  width: 600px;
-  display: block;
+.slider {
+  margin-top: 1rem;
 }
 
-.round-component {
-  width: 153px;
-  display: inline-block;
+.slider-label {
+  font-size: 2em;
+}
 
+.y-intercept {
+  padding-top: 0.2rem;
+  font-size: 1.8em;
 }

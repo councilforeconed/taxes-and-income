@@ -1,3 +1,46 @@
-{{range-slider value=incomeAmount min=sliderMinimum max=sliderMaximum}}
+{{tax-graph income=incomeAmount taxes=taxesPaid yIntercept=yIntercept}}
 
-<p>Income Amount: {{incomeAmount}}</p>
+<div class="container">
+  <div class="sixteen columns">Income</div>
+  <div class="one columns slider-label">
+    $0
+  </div>
+  <div class="fourteen columns">
+    {{range-slider value=incomeAmount min=sliderMinimum max=sliderMaximum}}
+  </div>
+  <div class="one columns slider-label">
+    $35
+  </div>
+</div>
+
+<div class="sixteen columns">
+  <table class="header-table">
+    <thead>
+      <tr>
+        <th>Income Amount</th>
+        <th>Taxes Paid</th>
+        <th>Average Tax Ratio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{format-currency incomeAmount}}</td>
+        <td>{{format-currency taxesPaid}}</td>
+        <td>{{format-percent averageTaxRatio}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <div class="sixteen columns">Y-Intercept</div>
+  <div class="one columns slider-label">
+    -5
+  </div>
+  <div class="fourteen columns">
+    {{range-slider value=yIntercept min=-5 max=5 step=1}}
+  </div>
+  <div class="one columns slider-label">
+    +5
+  </div>
+</div>
